@@ -1,0 +1,28 @@
+{
+  "name": "pokename",
+  "version": "1.0.0",
+  "description": "A discord bot which provide name of pokemons spawn from PokeRealm bot.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShreyashKira/pokename.git"
+  },
+  "keywords": [],
+  "author": "ShreyashKira",
+  "supportServer": "https://discord.gg/22fnMrQ",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ShreyashKira/pokename/issues"
+  },
+  "homepage": "https://github.com/ShreyashKira/pokename#readme",
+  "dependencies": {
+    "discord.js": "^12.3.1",
+    "dotenv": "^8.2.0",
+    "imghash": "0.0.7",
+    "node-fetch": "^2.6.0",
+    "request": "^2.88.2"
+  }
+}
