@@ -7,7 +7,7 @@ module.exports = async () => {
 
     return {
         sameVer: json.version === pkg.version,
-        originVer: json.version,
+        originVer: pkg.version,
         newVer: json.version
     };
 };
